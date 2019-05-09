@@ -1,0 +1,490 @@
+<!DOCTYPE html><html itemscope itemtype="http://schema.org/WebPage" lang="en-US" prefix="og: http://ogp.me/ns#"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="profile" href="https://gmpg.org/xfn/11"><link rel="pingback" href="https://educationwp.thimpress.com/demo-grad-school/xmlrpc.php"> <script type="text/javascript">var ajaxurl = "https://educationwp.thimpress.com/demo-grad-school/wp-admin/admin-ajax.php";</script> <link type="text/css" media="screen" href="https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/cache/autoptimize/52/css/autoptimize_dc4eae5c06933ecf5472b8a2a4fd8869.css" rel="stylesheet" /><style type="text/css" media="print">@media print{.pmpro_a-print{display:none;position:absolute;left:-9999px}}</style><link type="text/css" media="all" href="https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/cache/autoptimize/52/css/autoptimize_1176719512726a1e8028f070318f3ae0.css" rel="stylesheet" /><title>Improve Your CSS Workflow with SASS - Demo Grad School</title><link rel="canonical" href="../../index.html" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:title" content="Improve Your CSS Workflow with SASS - Demo Grad School" /><meta property="og:description" content="Sass is completely compatible with all versions of CSS. We take this compatibility seriously, so that you can seamlessly use any available CSS libraries." /><meta property="og:url" content="https://educationwp.thimpress.com/demo-grad-school/courses/improve-your-css-workflow-with-sass/" /><meta property="og:site_name" content="Demo Grad School" /><meta property="og:image" content="https://educationwp.thimpress.com/demo-grad-school/wp-content/uploads/sites/52/2015/06/course-7.jpg" /><meta property="og:image:secure_url" content="https://educationwp.thimpress.com/demo-grad-school/wp-content/uploads/sites/52/2015/06/course-7.jpg" /><meta property="og:image:width" content="870" /><meta property="og:image:height" content="500" /><meta name="twitter:card" content="summary" /><meta name="twitter:description" content="Sass is completely compatible with all versions of CSS. We take this compatibility seriously, so that you can seamlessly use any available CSS libraries." /><meta name="twitter:title" content="Improve Your CSS Workflow with SASS - Demo Grad School" /><meta name="twitter:image" content="https://educationwp.thimpress.com/demo-grad-school/wp-content/uploads/sites/52/2015/06/course-7.jpg" /><link rel='dns-prefetch' href='https://s.w.org' /><link rel="alternate" type="application/rss+xml" title="Demo Grad School &raquo; Feed" href="../../../../feed/index.html" /><style id='woocommerce-inline-inline-css' type='text/css'>.woocommerce form .form-row .required { visibility: visible; }</style><style id='rs-plugin-settings-inline-css' type='text/css'>#rs-demo-id {}</style><link rel='stylesheet' id='dashicons-css' href='https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-includes/css/dashicons.min.css' type='text/css' media='all' /> <script type='text/javascript' src='https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-includes/js/jquery/jquery.js'></script> <script type='text/javascript'>var userSettings = {"url":"\/","uid":"0","time":"1555740427","secure":"1"};</script> <link rel='https://api.w.org/' href='../../../../wp-json/index.html' /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../xmlrpc.php-rsd.xml" /><link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../../wp-includes/wlwmanifest.xml" /><link rel='shortlink' href='../../index.html' /><link rel="alternate" type="application/json+oembed" href="../../../../wp-json/oembed/1.0/embed-url=https_||educationwp.thimpress.com|demo-grad-school|courses|improve-your-css-workflow-with-sass|.json" /><link rel="alternate" type="text/xml+oembed" href="../../../../wp-json/oembed/1.0/embed-url=https_||educationwp.thimpress.com|demo-grad-school|courses|improve-your-css-workflow-with-sass|&format=xml.xml" /> <noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript> <script type="text/javascript">function tc_insert_internal_css(css) {
+                    var tc_style = document.createElement("style");
+                    tc_style.type = "text/css";
+                    tc_style.setAttribute('data-type', 'tc-internal-css');
+                    var tc_style_content = document.createTextNode(css);
+                    tc_style.appendChild(tc_style_content);
+                    document.head.appendChild(tc_style);
+                }</script> <meta name="generator" content="Powered by Slider Revolution 5.4.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." /><link rel="icon" href="https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/uploads/sites/52/2015/10/favicon.png" sizes="32x32" /><link rel="icon" href="https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/uploads/sites/52/2015/10/favicon.png" sizes="192x192" /><link rel="apple-touch-icon-precomposed" href="https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/uploads/sites/52/2015/10/favicon.png" /><meta name="msapplication-TileImage" content="https://educationwp.thimpress.com/demo-grad-school/wp-content/uploads/sites/52/2015/10/favicon.png" /> <script type="text/javascript">function setREVStartSize(e){									
+						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+					};</script> <script type="text/javascript">if (typeof ajaxurl === 'undefined') {
+                
+                var ajaxurl = "https://educationwp.thimpress.com/demo-grad-school/wp-admin/admin-ajax.php";
+                
+            }</script> </head><body class="lp_course-template-default single single-lp_course postid-5227 eduma learnpress learnpress-page woocommerce-no-js pmpro-body-has-access group-blog body-grad-layout thim-body-preload bg-boxed-image size_wide thim-popup-feature course-item-popup viewing-course-item viewing-course-item-5254 course-item-lp_lesson" id="thim-body"><div id="preload"><div class="sk-folding-cube"><div class="sk-cube1 sk-cube"></div><div class="sk-cube2 sk-cube"></div><div class="sk-cube4 sk-cube"></div><div class="sk-cube3 sk-cube"></div></div></div><div id="fb-root"></div> <script>/*119004898563266*/
+		window.fbAsyncInit = function() {
+            FB.init({
+                appId            : '978118969000044',
+                autoLogAppEvents : true,
+                xfbml            : true,
+                version          : 'v3.2'
+            });
+        };
+
+		(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script> <div class="fb-customerchat" attribution=setup_tool page_id="670754656349662" theme_color="#0084ff" logged_in_greeting="Hi! How can we help you with Eduma?" logged_out_greeting="Hi! How can we help you with Eduma?"></div><div id="wrapper-container" class="wrapper-container"><div class="content-pusher"><header id="masthead" class="site-header affix-top header_default header_v5"><div id="toolbar" class="toolbar"><div class="header_full"><div class="row"><div class="col-sm-12"><div class="toolbar-container"><aside id="login-popup-3" class="widget widget_login-popup"><div class="thim-widget-login-popup thim-widget-login-popup-base"><div class="thim-link-login thim-login-popup"> <a class="login js-show-popup" href="../../../../account/index.html"><i class="ion-android-person"></i></a></div></div></aside><aside id="courses-searching-3" class="widget widget_courses-searching"><div class="thim-widget-courses-searching thim-widget-courses-searching-base"><div class="thim-course-search-overlay"><div class="search-toggle"><i class="fa fa-search"></i></div><div class="courses-searching layout-overlay"><div class="search-popup-bg"></div><form method="get" action="https://educationwp.thimpress.com/demo-grad-school/courses/"> <input type="text" value="" name="s" placeholder="Search courses..." class="thim-s form-control courses-search-input" autocomplete="off" /> <input type="hidden" value="course" name="ref" /> <button type="submit"><i class="fa fa-search"></i></button> <span class="widget-search-close"></span></form><ul class="courses-list-search list-unstyled"></ul></div></div></div></aside><aside id="nav_menu-15" class="widget widget_nav_menu"><div class="menu-top-menu-container"><ul id="menu-top-menu" class="menu"><li id="menu-item-8019" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8019 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="index.html#" class="tc-menu-inner">Students</a></li><li id="menu-item-8020" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8020 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="index.html#" class="tc-menu-inner">Parents</a></li><li id="menu-item-8021" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8021 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="index.html#" class="tc-menu-inner">Faculty &#038; Staff</a></li><li id="menu-item-8022" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8022 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="index.html#" class="tc-menu-inner">Alumni</a></li></ul></div></aside><aside id="text-2" class="widget widget_text"><div class="textwidget"><div class="thim-have-any-question"><div class="mobile"><i class="fa fa-phone"></I> NEED HELP? CALL US NOW <a href="tel:00123456789" class="value">(00) 123 456 789</a></div><div class="email"><i class="fa fa-envelope"></i><a href="../../../../../cdn-cgi/l/email-protection.html#f098959c9c9fb09594859d91de939f9d"><span class="__cf_email__" data-cfemail="f9919c959596b99c9d8c9498d79a9694">[email&#160;protected]</span></a></div></div></div></aside></div></div></div></div></div><div class="thim-nav-wrapper header_full"><div class="row"><div class="navigation col-sm-12"><div class="tm-table"><div class="width-logo table-cell sm-logo"> <a href="../../../../index.html" title="Demo Grad School - Education WordPress Theme" rel="home" class="no-sticky-logo"><img src="https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/uploads/sites/52/2018/07/logo.png" alt="Demo Grad School"></a><a href="../../../../index.html" rel="home" class="sticky-logo"><img src="https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/uploads/sites/52/2018/07/logo.png" alt="Demo Grad School"></a></div><nav class="width-navigation table-cell table-right"><ul class="nav navbar-nav menu-main-menu"><li id="menu-item-3404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3404 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-column tc-menu-column-hide-title"><span class="tc-menu-inner">Demos</span><div class="tc-megamenu-wrapper tc-megamenu-holder mega-sub-menu sub-menu tc-columns-4"><ul class="row"><li id="menu-item-6222" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6222 tc-menu-item tc-menu-depth-1 tc-menu-align-left col-md-3 col-sm-12"><a href="index.html#" class="tc-menu-inner tc-megamenu-title">Group 1</a><ul class="sub-menu"><li id="menu-item-3407" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3407 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="../../../../../index.html" class="tc-menu-inner">Demo Main Demo</a></li><li id="menu-item-3405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3405 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="../../../../../demo-2/index.html" class="tc-menu-inner">Demo Course Era</a></li><li id="menu-item-3406" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3406 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="../../../../../demo-3/index.html" class="tc-menu-inner">Demo Online School</a></li><li id="menu-item-6125" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6125 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="../../../../../demo-languages-school/index.html" class="tc-menu-inner">Demo Languages School</a></li></ul></li><li id="menu-item-6223" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6223 tc-menu-item tc-menu-depth-1 tc-menu-align-left col-md-3 col-sm-12"><a href="index.html#" class="tc-menu-inner tc-megamenu-title">Group 2</a><ul class="sub-menu"><li id="menu-item-6225" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6225 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="../../../../../demo-courses-hub/index.html" class="tc-menu-inner">Demo Courses Hub</a></li><li id="menu-item-4028" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4028 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="../../../../../demo-university/index.html" class="tc-menu-inner">Demo Classic University</a></li><li id="menu-item-4202" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4202 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="../../../../../demo-university-2/index.html" class="tc-menu-inner">Demo Modern University</a></li><li id="menu-item-3435" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3435 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="../../../../../demo-university-3/index.html" class="tc-menu-inner">Demo Ivy League</a></li></ul></li><li id="menu-item-6224" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6224 tc-menu-item tc-menu-depth-1 tc-menu-align-left col-md-3 col-sm-12"><a href="index.html#" class="tc-menu-inner tc-megamenu-title">Group 3</a><ul class="sub-menu"><li id="menu-item-7597" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7597 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="../../../../../demo-university-4/index.html" class="tc-menu-inner">Demo Stanford</a></li><li id="menu-item-6607" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6607 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="../../../../../demo-kindergarten/index.html" class="tc-menu-inner">Demo Kindergarten</a></li><li id="menu-item-3899" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3899 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="../../../../../demo-one-instructor/index.html" class="tc-menu-inner">Demo One Instructor</a></li><li id="menu-item-3898" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3898 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="../../../../../demo-one-course/index.html" class="tc-menu-inner">Demo One Course</a></li></ul></li><li id="menu-item-7938" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7938 tc-menu-item tc-menu-depth-1 tc-menu-align-left col-md-3 col-sm-12"><a href="index.html#" class="tc-menu-inner tc-megamenu-title">Group 4</a><ul class="sub-menu"><li id="menu-item-7939" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7939 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="../../../../../demo-react/index.html" class="tc-menu-inner">Demo React</a></li><li id="menu-item-7599" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7599 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="../../../../../demo-edtech/index.html" class="tc-menu-inner">Demo Edtech</a></li><li id="menu-item-7598" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-7598 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="../../../../index.html" class="tc-menu-inner">Demo Grad School</a></li><li id="menu-item-3436" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3436 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="../../../../../demo-rtl/index.html" class="tc-menu-inner">Demo RTL</a></li></ul></li></ul></div></li><li id="menu-item-7682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7682 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-builder"><a href="../../../index.html" class="tc-menu-inner">Courses</a><div class='tc-megamenu-wrapper tc-megamenu-holder mega-sub-menu sub-menu'><div id="pl-tc-megamenu-7682" class="panel-layout"><div id="pg-tc-megamenu-7682-0" class="panel-grid panel-has-style"><div class="thim-megamenu-row panel-row-style panel-row-style-for-tc-megamenu-7682-0"><div id="pgc-tc-megamenu-7682-0-0" class="panel-grid-cell"><div id="panel-tc-megamenu-7682-0-0-0" class="so-panel widget widget_nav_menu panel-first-child panel-last-child" data-index="0"><h3 class="widget-title">About Courses</h3><div class="menu-about-courses-container"><ul id="menu-about-courses" class="menu"><li id="menu-item-5739" class="menu-item menu-item-type-post_type menu-item-object-lp_course menu-item-5739 tc-menu-item tc-menu-depth-0 tc-menu-layout-default"><a href="../../../learnpress-101/index.html" class="tc-menu-inner">Free Access Type</a></li><li id="menu-item-5741" class="menu-item menu-item-type-post_type menu-item-object-lp_course menu-item-5741 tc-menu-item tc-menu-depth-0 tc-menu-layout-default"><a href="../../../node/index.html" class="tc-menu-inner">Other Free Type</a></li><li id="menu-item-5740" class="menu-item menu-item-type-post_type menu-item-object-lp_course menu-item-5740 tc-menu-item tc-menu-depth-0 tc-menu-layout-default"><a href="../../../become-a-php-master-and-make-money-fast/index.html" class="tc-menu-inner">Paid Type</a></li><li id="menu-item-5742" class="menu-item menu-item-type-post_type menu-item-object-lp_course current-menu-item menu-item-5742 tc-menu-item tc-menu-depth-0 tc-menu-layout-default"><a href="../../index.html" class="tc-menu-inner">Other Paid Type</a></li><li id="menu-item-7635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7635 tc-menu-item tc-menu-depth-0 tc-menu-layout-default"><a href="../../../index.html" class="tc-menu-inner">Courses Archive</a></li><li id="menu-item-4389" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4389 tc-menu-item tc-menu-depth-0 tc-menu-layout-default"><a href="../../../../demo-accounts/index.html" class="tc-menu-inner">Demo Accounts</a></li><li id="menu-item-4391" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4391 tc-menu-item tc-menu-depth-0 tc-menu-layout-default"><a href="../../../../become-a-teacher/index.html" class="tc-menu-inner">Become an Instructor</a></li><li id="menu-item-4392" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4392 tc-menu-item tc-menu-depth-0 tc-menu-layout-default"><a href="https://educationwp.thimpress.com/thim-2/profile/keny/" class="tc-menu-inner">Instructor Profile</a></li></ul></div></div></div><div id="pgc-tc-megamenu-7682-0-1" class="panel-grid-cell"><div id="panel-tc-megamenu-7682-0-1-0" class="so-panel widget widget_courses panel-first-child panel-last-child" data-index="1"><div class="thim-widget-courses thim-widget-courses-base"><div class="thim-course-megamenu"><div class="lpr_course course-grid-1"><div class="course-item"><div class="course-thumbnail"><a class="thumb" href="../../../learnpress-101/index.html"><img src="https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/uploads/sites/52/2015/11/course-4-450x450.jpg" alt="Introduction LearnPress &#8211; LMS plugin" title="course-4" width="450" height="450"></a></div><div class="thim-course-content"><h2 class="course-title"> <a href="../../../learnpress-101/index.html"> Introduction LearnPress &#8211; LMS plugin</a></h2><div class="course-meta"><div class="course-price" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer"><div class="value  free-course" itemprop="price"> Free</div><meta itemprop="priceCurrency" content="USD" /></div></div> <a class="course-readmore" href="../../../learnpress-101/index.html">Read More</a></div></div></div></div></div></div></div><div id="pgc-tc-megamenu-7682-0-2" class="panel-grid-cell"><div id="panel-tc-megamenu-7682-0-2-0" class="so-panel widget widget_single-images panel-first-child panel-last-child" data-index="2"><div class="thim-widget-single-images thim-widget-single-images-base"><div class="single-image text-left"><a target=" _self" href="index.html#"><img src="https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/uploads/sites/52/2016/02/megamenu.jpg" width="252" height="359" alt="" /></a></div></div></div></div></div></div></div></div></li><li id="menu-item-95" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-95 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><span class="tc-menu-inner">Features</span><ul class="sub-menu"><li id="menu-item-6550" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6550 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="../../../../membership-account/membership-levels/index.html" class="tc-menu-inner tc-megamenu-title">Membership</a></li><li id="menu-item-4451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4451 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="../../../../portfolio-masonry/index.html" class="tc-menu-inner tc-megamenu-title">Portfolio</a></li><li id="menu-item-2924" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2924 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="../../../../about-us/index.html" class="tc-menu-inner tc-megamenu-title">About Us</a></li><li id="menu-item-96" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="../../../../faqs/index.html" class="tc-menu-inner tc-megamenu-title">FAQs</a></li><li id="menu-item-3126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3126 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://educationwp.thimpress.com/404-page" class="tc-menu-inner tc-megamenu-title">404 Page</a></li></ul></li><li id="menu-item-7679" class="menu-item menu-item-type-post_type_archive menu-item-object-tp_event menu-item-7679 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="../../../../events/index.html" class="tc-menu-inner">Events</a></li><li id="menu-item-4528" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4528 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="../../../../gallery/index.html" class="tc-menu-inner">Gallery</a></li><li id="menu-item-127" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-127 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="../../../../blog/index.html" class="tc-menu-inner">Blog</a></li><li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="../../../../contact/index.html" class="tc-menu-inner">Contact</a></li><li id="menu-item-1702" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1702 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="../../../../shop/index.html" class="tc-menu-inner">Shop</a></li><li class="menu-right"><ul><li id="button-2" class="widget widget_button"><div class="thim-widget-button thim-widget-button-base"><a class="widget-button very-rounded no-border normal custom_style" href="index.html#" style="font-size: 14px;font-weight: 400;color: #ffffff;background-color: #2ec4b6;" data-hover="font-size: 14px;font-weight: 400;color: #ffffff;background-color: #1c9b8e;">Apply Now</a></div></li></ul></li></ul></nav><div class="menu-mobile-effect navbar-toggle" data-effect="mobile-effect"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></div></div></div></div></div></header><div id="main-content"><section class="content-area"><div class="top_heading  _out"><div class="top_site_main " style="color: #ffffff;background-image:url('https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/thim-2/wp-content/themes/eduma/images/bg-page.jpg');"> <span class="overlay-top-header" style="background:rgba(0,0,0,0.5);"></span><div class="page-title-wrapper"><div class="banner-wrapper container"><h2>Technology</h2></div></div></div><div class="breadcrumbs-wrapper"><div class="container"><ul itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList" id="breadcrumbs" class="breadcrumbs"><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="../../../../index.html" title="Home"><span itemprop="name">Home</span></a></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="../../../index.html" title="All courses"><span itemprop="name">All courses</span></a></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="../../../../course-category/technology/index.html" title="Technology"><span itemprop="name">Technology</span></a></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><span itemprop="name" title="Improve Your CSS Workflow with SASS">Improve Your CSS Workflow with SASS</span></li></ul></div></div></div><div class="container site-content sidebar-right"><div class="row"><main id="main" class="site-main col-sm-9 alignleft"><article id="post-5227" class="post-5227 lp_course type-lp_course status-publish has-post-thumbnail hentry course_category-technology pmpro-has-access course"><div class="entry-content"><div id="lp-single-course" class="lp-single-course"><div id="course-curriculum-popup" class="course-summary"><div id="popup-sidebar"><div class="thim-curriculum-buttons"></div><div class="course-curriculum" id="learn-press-course-curriculum"><div class="curriculum-scrollable"><nav class="thim-font-heading learn-press-breadcrumb" itemprop="breadcrumb"><a href="../../../../course-category/technology/index.html">Technology</a><i class="fa-angle-right fa"></i><span class="item-name">Improve Your CSS Workflow with SASS</span></nav><ul class="curriculum-sections"><li class="section" id="section-getting-started-129" data-id="getting-started-129" data-section-id="129"><h4 class="section-header"> <span class="collapse"></span> Getting Started <span class="meta"> <span class="step">1</span> </span></h4><ul class="section-content"><li class="course-item course-item-lp_lesson course-item-5228 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>1.1</div></div> <a class="lesson-title course-item-title button-load-item" href="../how-to-install-sass/index.html"> How to install SASS </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li></ul></li><li class="section" id="section-using-sass-130" data-id="using-sass-130" data-section-id="130"><h4 class="section-header"> <span class="collapse"></span> Using Sass <span class="meta"> <span class="step">31</span> </span></h4><ul class="section-content"><li class="course-item course-item-lp_lesson course-item-5229 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.1</div></div> <a class="lesson-title course-item-title button-load-item" href="../basics-of-variables-in-sass/index.html"> The Basics of Variables in Sass </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5230 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.2</div></div> <a class="lesson-title course-item-title button-load-item" href="../nesting-your-sass/index.html"> Nesting Your Sass </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5231 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.3</div></div> <a class="lesson-title course-item-title button-load-item" href="../using-mixins/index.html"> Using Mixins </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5232 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.4</div></div> <a class="lesson-title course-item-title button-load-item" href="../selector-inheritance/index.html"> Selector Inheritance </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5233 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.5</div></div> <a class="lesson-title course-item-title button-load-item" href="../creating-configurable-shapes-using-minxins/index.html"> Creating Configurable Shapes Using Minxins </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5234 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.6</div></div> <a class="lesson-title course-item-title button-load-item" href="../import-and-parent-reference/index.html"> @import and Parent Reference </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5235 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.7</div></div> <a class="lesson-title course-item-title button-load-item" href="../using-lists-and-each/index.html"> Using Lists and @each </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5236 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.8</div></div> <a class="lesson-title course-item-title button-load-item" href="../nth-function-in-lists/index.html"> Nth Function in Lists </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5237 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.9</div></div> <a class="lesson-title course-item-title button-load-item" href="../built-in-functions/index.html"> Built in Functions </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5238 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.10</div></div> <a class="lesson-title course-item-title button-load-item" href="../build-your-own-functions/index.html"> Build Your Own Functions </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5239 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.11</div></div> <a class="lesson-title course-item-title button-load-item" href="../build-your-own-function-part-2-if-else/index.html"> Build Your Own Function Part 2 &#8211; If Else </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5240 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.12</div></div> <a class="lesson-title course-item-title button-load-item" href="../build-your-own-function-part-3-total-automation-with-lists/index.html"> Build Your Own Function Part 3 &#8211; Total Automation with Lists </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5241 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.13</div></div> <a class="lesson-title course-item-title button-load-item" href="../output-style/index.html"> Output Style </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5242 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.14</div></div> <a class="lesson-title course-item-title button-load-item" href="../for-loops/index.html"> For Loops </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5243 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.15</div></div> <a class="lesson-title course-item-title button-load-item" href="../while-loops/index.html"> While Loops </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5244 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.16</div></div> <a class="lesson-title course-item-title button-load-item" href="../using-live-reload/index.html"> Using Live Reload </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5245 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.17</div></div> <a class="lesson-title course-item-title button-load-item" href="../updating-to-sass-3-2-1-media-mark/index.html"> Updating to Sass 3.2.1. Media Mark </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5246 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.18</div></div> <a class="lesson-title course-item-title button-load-item" href="../placeholder-selectors/index.html"> Placeholder Selectors </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5247 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.19</div></div> <a class="lesson-title course-item-title button-load-item" href="../content-better-media-queries-in-sass/index.html"> @Content &#8211; Better Media Queries in Sass </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5248 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.20</div></div> <a class="lesson-title course-item-title button-load-item" href="../extending-sass-and-writing-a-config-file/index.html"> Extending Sass and Writing a Config file </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5249 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.21</div></div> <a class="lesson-title course-item-title button-load-item" href="../installing-and-using-sass-globbing/index.html"> Installing and Using Sass Globbing </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5250 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.22</div></div> <a class="lesson-title course-item-title button-load-item" href="../installing-singularity-grid-system/index.html"> Installing Singularity Grid System </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5251 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.23</div></div> <a class="lesson-title course-item-title button-load-item" href="../creating-and-using-a-symetrical-grid/index.html"> Creating and Using a Symetrical Grid </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5252 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.24</div></div> <a class="lesson-title course-item-title button-load-item" href="../asymmetric-grids/index.html"> Asymmetric Grids </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5253 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.25</div></div> <a class="lesson-title course-item-title button-load-item" href="../responsive-grids-with-breakpoint/index.html"> Responsive Grids With Breakpoint </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5254 current item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.26</div></div> <a class="lesson-title course-item-title button-load-item" href="index.html"> Adding Columns at Breakpoints </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5255 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.27</div></div> <a class="lesson-title course-item-title button-load-item" href="../selector-functions-and-sass-3-4/index.html"> Selector Functions and Sass 3.4 </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5256 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.28</div></div> <a class="lesson-title course-item-title button-load-item" href="../juice-mixins-for-life/index.html"> Juice, Mixins for LIfe </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_lesson course-item-5257 item-locked course-lesson" data-type="lp_lesson"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-file-o"></i></span><div class="index"><span class="label">Lecture</span>2.29</div></div> <a class="lesson-title course-item-title button-load-item" href="../juice-mixins-for-life-part-2/index.html"> Juice, Mixins for Life Part 2 </a> <span class="meta duration">30 min</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_quiz course-item-5258 item-locked course-quiz" data-type="lp_quiz"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-puzzle-piece"></i></span><div class="index"><span class="label">Quiz</span>2.1</div></div> <a class="quiz-title course-item-title button-load-item" href="../../quizzes/zurb-foundation-final-2/index.html"> Zurb Foundation Final </a> <span class="meta count-questions">0 question</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li><li class="course-item course-item-lp_quiz course-item-5259 item-locked course-quiz" data-type="lp_quiz"><div class="meta-left"> <span class="course-format-icon"><i class="fa fa-puzzle-piece"></i></span><div class="index"><span class="label">Quiz</span>2.2</div></div> <a class="quiz-title course-item-title button-load-item" href="../../quizzes/sass-final-quiz/index.html"> Sass Final Quiz </a> <span class="meta count-questions">4 questions</span><div class="course-item-meta"> <i class="fa item-meta course-item-status trans"></i></div></li></ul></li></ul></div></div><div id="learn-press-content-item"><div id="course-item-content-header"><div id="popup-header"><div class="courses-searching"> <input type="text" value="" name="s" placeholder="Search courses" class="thim-s form-control courses-search-input" autocomplete="off" /> <input type="hidden" value="course" name="ref" /> <button type="submit"><i class="fa fa-search"></i></button> <span class="widget-search-close"></span><ul class="courses-list-search"></ul></div> <a href="../../index.html" class="back_course"><i class="fa fa-close"></i></a> <a class="toggle-content-item" href=""></a></div></div><div class="content-item-scrollable"><div class="content-item-wrap"><div class="message message-error learn-press-message error"> This content is protected, please <a href="../../../../account/index.html">login</a> and enroll course to view this content!</div><div class="course-item-nav"><div class="course-content-lesson-nav course-item-prev"> <span>Prev</span> <a href="../responsive-grids-with-breakpoint/index.html"> Responsive Grids With Breakpoint </a></div><div class="course-content-lesson-nav course-item-next"> <span>Next</span> <a href="../selector-functions-and-sass-3-4/index.html"> Selector Functions and Sass 3.4 </a></div></div></div></div><div id="course-item-content-footer"></div></div></div></div></div> <script data-cfasync="false" src="../../../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">function moOpenIdLogin(app_name, is_custom_app) {
+				                var base_url = 'https://educationwp.thimpress.com/demo-grad-school';
+                var request_uri = '/demo-grad-school/courses/improve-your-css-workflow-with-sass/lessons/adding-columns-at-breakpoints/';
+                var http = 'https://';
+                var http_host = 'educationwp.thimpress.com';
+                if (is_custom_app == 'false') {
+                    if (request_uri.indexOf('wp-login.php') != -1) {
+                        var redirect_url = base_url + '/?option=getmosociallogin&app_name=';
+
+                    } else {
+                        var redirect_url = http + http_host + request_uri;
+                        if (redirect_url.indexOf('?') != -1) {
+                            redirect_url = redirect_url + '&option=getmosociallogin&app_name=';
+                        }
+                        else {
+                            redirect_url = redirect_url + '?option=getmosociallogin&app_name=';
+                        }
+                    }
+                }
+                else {
+                    var current_url = window.location.href;
+                    var cname = 'redirect_current_url';
+                    var d = new Date();
+                    d.setTime(d.getTime() + (2 * 24 * 60 * 60 * 1000));
+                    var expires = 'expires=' + d.toUTCString();
+                    document.cookie = cname + '=' + current_url + ';' + expires + ';path=/';   //path = root path(/)
+                    if (request_uri.indexOf('wp-login.php') != -1) {
+                        var redirect_url = base_url + '/?option=oauthredirect&app_name=';
+                    } else {
+                        var redirect_url = http + http_host + request_uri;
+                        if (redirect_url.indexOf('?') != -1)
+                            redirect_url = redirect_url + '&option=oauthredirect&app_name=';
+                        else
+                            redirect_url = redirect_url + '?option=oauthredirect&app_name=';
+                    }
+                }
+                var redirect_to = jQuery('#loginform input[name="redirect_to"]').val();
+                redirect_url = redirect_url + app_name + '&redirect_to=' + encodeURIComponent(redirect_to);
+                window.location.href = redirect_url;
+            }</script> </div></article></main><div id="sidebar" class="widget-area col-sm-3 sticky-sidebar" role="complementary"><aside id="course-categories-3" class="widget widget_course-categories"><div class="thim-widget-course-categories thim-widget-course-categories-base"><h4 class="widget-title">All Courses</h4><ul><li> <a href="../../../../course-category/backend/index.html">Backend</a></li><li> <a href="../../../../course-category/css/index.html">CSS</a></li><li> <a href="../../../../course-category/frontend/index.html">Frontend</a></li><li> <a href="../../../../course-category/general/index.html">General</a></li><li> <a href="../../../../course-category/it-software/index.html">IT &amp; Software</a></li><li> <a href="../../../../course-category/photography/index.html">Photography</a></li><li> <a href="../../../../course-category/programming-language/index.html">Programming Language</a></li><li> <a href="../../../../course-category/technology/index.html">Technology</a></li></ul></div></aside><aside id="courses-7" class="widget widget_courses"><div class="thim-widget-courses thim-widget-courses-base"><h4 class="widget-title">Latest Courses</h4><div class="thim-course-list-sidebar"><div class="lpr_course has-post-thumbnail"><div class="course-thumbnail"><img src="https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/uploads/sites/52/2015/11/course-4-150x150.jpg" alt="Introduction LearnPress &#8211; LMS plugin" /></div><div class="thim-course-content"><h3 class="course-title"> <a href="../../../learnpress-101/index.html"> Introduction LearnPress &#8211; LMS plugin</a></h3><div class="course-price" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer"><div class="value  free-course" itemprop="price"> Free</div><meta itemprop="priceCurrency" content="USD" /></div></div></div><div class="lpr_course has-post-thumbnail"><div class="course-thumbnail"><img src="https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/uploads/sites/52/2015/06/course-2-150x150.jpg" alt="Become a PHP Master and Make Money" /></div><div class="thim-course-content"><h3 class="course-title"> <a href="../../../become-a-php-master-and-make-money-fast/index.html"> Become a PHP Master and Make Money</a></h3><div class="course-price" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer"><div class="value  has-origin" itemprop="price"> <span class="course-origin-price">&#36;80.00</span> &#36;69.00</div><meta itemprop="priceCurrency" content="USD" /></div></div></div><div class="lpr_course has-post-thumbnail"><div class="course-thumbnail"><img src="https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/uploads/sites/52/2015/06/course-5-150x150.jpg" alt="Learning jQuery Mobile for Beginners" /></div><div class="thim-course-content"><h3 class="course-title"> <a href="../../../learning-jquery-mobile-for-beginners/index.html"> Learning jQuery Mobile for Beginners</a></h3><div class="course-price" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer"><div class="value " itemprop="price"> &#36;30.00</div><meta itemprop="priceCurrency" content="USD" /></div></div></div></div></div></aside><aside id="single-images-7" class="widget widget_single-images"><div class="thim-widget-single-images thim-widget-single-images-base"><div class="single-image text-left"><a target=" _self" href="index.html#"><img src="https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/uploads/sites/52/2015/12/ad.jpg" width="330" height="359" alt="" /></a></div></div></aside></div></div></div></section><footer id="colophon" class="thim-footer-new-eduma site-footer"><div class="footer"><div class="container"><div class="row"><aside id="siteorigin-panels-builder-10" class="widget widget_siteorigin-panels-builder footer_widget"><div id="pl-w5b7cc84b2cab6" class="panel-layout"><div id="pg-w5b7cc84b2cab6-0" class="panel-grid panel-has-style"><div class="thim_2_col_tablet panel-row-style panel-row-style-for-w5b7cc84b2cab6-0"><div id="pgc-w5b7cc84b2cab6-0-0" class="panel-grid-cell"><div id="panel-w5b7cc84b2cab6-0-0-0" class="so-panel widget widget_text panel-first-child panel-last-child" data-index="0"><div class="panel-widget-style panel-widget-style-for-w5b7cc84b2cab6-0-0-0"><div class="textwidget"><p><a href="https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/uploads/sites/52/2018/07/logo-footer.png"><img class="alignnone size-full wp-image-8014" src="https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/uploads/sites/52/2018/07/logo-footer.png" alt="" width="194" height="46" /></a></p><p>Lorem ipsum dolor. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna.</p></div></div></div></div><div id="pgc-w5b7cc84b2cab6-0-1" class="panel-grid-cell"><div id="panel-w5b7cc84b2cab6-0-1-0" class="so-panel widget widget_nav_menu panel-first-child panel-last-child" data-index="1"><div class="menu_two_column panel-widget-style panel-widget-style-for-w5b7cc84b2cab6-0-1-0"><h3 class="widget-title">Useful Link</h3><div class="menu-links-container"><ul id="menu-links" class="menu"><li id="menu-item-5749" class="menu-item menu-item-type-post_type_archive menu-item-object-lp_course menu-item-5749 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="../../../index.html" class="tc-menu-inner">Courses</a></li><li id="menu-item-3426" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3426 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="https://educationwp.thimpress.com/thim-2/events" class="tc-menu-inner">Events</a></li><li id="menu-item-4591" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4591 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="../../../../gallery/index.html" class="tc-menu-inner">Gallery</a></li><li id="menu-item-3427" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3427 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="../../../../faqs/index.html" class="tc-menu-inner">FAQs</a></li><li id="menu-item-8167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8167 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="../../../../about-us/index.html" class="tc-menu-inner">About Us</a></li><li id="menu-item-8169" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-8169 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="../../../../blog/index.html" class="tc-menu-inner">Blog</a></li><li id="menu-item-8170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8170 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="../../../../contact/index.html" class="tc-menu-inner">Contact</a></li><li id="menu-item-8171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8171 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="../../../../faqs/index.html" class="tc-menu-inner">FAQs</a></li><li id="menu-item-8172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8172 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="../../../../gallery/index.html" class="tc-menu-inner">Gallery</a></li><li id="menu-item-8173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8173 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="../../../../shop/index.html" class="tc-menu-inner">Shop</a></li></ul></div></div></div></div><div id="pgc-w5b7cc84b2cab6-0-2" class="panel-grid-cell"><div id="panel-w5b7cc84b2cab6-0-2-0" class="so-panel widget widget_black-studio-tinymce widget_black_studio_tinymce panel-first-child panel-last-child" data-index="2"><h3 class="widget-title">Connect Us</h3><div class="textwidget"><div class="thim-footer-location"><p class="info"><i class="fa fa-phone"></i><a href="tel:00123456789">(00) 123 456 789</a></p><p class="info"><i class="fa fa-envelope"></i><a href="../../../../../cdn-cgi/l/email-protection.html#b8cbcdc8c8d7caccf8dddccddbd9ccd1d7d6cfc896dbd7d5"><span class="__cf_email__" data-cfemail="e794929797889593a78283928486938e8889c984888a">[email&#160;protected]</span></a></p><p class="info"><i class="fa fa-fax"></i><a href="tel:00123456789">(00) 123 456 789</a></p><p class="info"><i class="fa fa-envelope"></i>A26BT5 Building, SilverC Street, London, England</p></div></div></div></div><div id="pgc-w5b7cc84b2cab6-0-3" class="panel-grid-cell"><div id="panel-w5b7cc84b2cab6-0-3-0" class="so-panel widget widget_text panel-first-child panel-last-child" data-index="3"><h3 class="widget-title">Our WorldWide Office</h3><div class="textwidget"><p><a href="https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/uploads/sites/52/2018/07/map.png"><img class="alignnone size-full wp-image-8013" src="https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/uploads/sites/52/2018/07/map.png" alt="" width="300" height="145" /></a></p></div></div></div></div></div></div></aside></div></div></div><div class="copyright-area"><div class="container"><div class="copyright-content"><div class="row"><div class="col-sm-12"><p class="text-copyright"><a href="https://themeforest.net/item/education-wordpress-theme-education-wp/14058034?ref=ThimPress&utm_source=demo&utm_medium=demofooter">Education WordPress Theme</a> by <a class="color_primary" href="http://www.thimpress.com" target="_blank">ThimPress.</a> Powered by WordPress.</p></div></div></div></div></div></footer></div></div> <a href="index.html#" id="back-to-top"> <i class="fa fa-chevron-up" aria-hidden="true"></i> </a></div><div id="tp_style_selector"><div class="tp_style_selector_container"><div class="tp_chameleon_customize"><div class="tp-buy-theme"> <a class="link-buy" href="https://themeforest.net/item/education-wordpress-theme-education-wp/14058034?ref=ThimPress&utm_campaign=chameleon&utm_medium=buynow&utm_source=eduma" title="Buy Now"><i class="fa fa-shopping-cart"></i>Buy Now</a> <a class="view-more-slider" target="_blank" href="https://thimpress.com/learnpress/learnpress-premium-add-ons-request-form/?utm_source=demo&utm_medium=chameleon" title="Get Bundle"> <span class="text">Click Here To Redeem</span> <span class="text">Included LearnPress Bundle (<i>$433</i>)</span> </a></div></div><div class="tp-chameleon-demos-wrapper"><div class="tp-title">GET AN AWESOME START!</div><p class="tp-description">With easy <strong>ONE CLICK INSTALL</strong> and fully customizable options, our demos the best start you'll ever get!</p><div class="tp_chameleon_demos"><div class="tp_demo" data-preview="https://updates.thimpress.com/wp-content/uploads/2017/06/eduma-demo-01.jpg"> <a href="../../../../../index.html" title="Demo Main Demo" style="background: url('https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/themes/eduma/images/eduma-chameleon-gradschool3.png') 0px 0px;"> </a></div><div class="tp_demo" data-preview="https://updates.thimpress.com/wp-content/uploads/2017/06/eduma-demo-02.jpg"> <a href="../../../../../demo-2/index.html" title="Demo Course Era" style="background: url('https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/themes/eduma/images/eduma-chameleon-gradschool3.png') 0px -150px;"> </a></div><div class="tp_demo" data-preview="https://updates.thimpress.com/wp-content/uploads/2017/06/eduma-demo-courses-hub.jpg"> <a href="../../../../../demo-courses-hub/index.html" title="Demo Courses Hub" style="background: url('https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/themes/eduma/images/eduma-chameleon-gradschool3.png') -142px -150px;"> </a></div><div class="tp_demo" data-preview="https://updates.thimpress.com/wp-content/uploads/2017/06/eduma-demo-one-instructor.jpg"> <a href="../../../../../demo-one-instructor/index.html" title="Demo One Instructor" style="background: url('https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/themes/eduma/images/eduma-chameleon-gradschool3.png') 0px -260px;"> </a></div><div class="tp_demo" data-preview="https://updates.thimpress.com/wp-content/uploads/2017/06/eduma-demo-one-course.jpg"> <a href="../../../../../demo-one-course/index.html" title="Demo One Course" style="background: url('https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/themes/eduma/images/eduma-chameleon-gradschool3.png') -142px -260px;"> </a></div><div class="tp_demo" data-preview="https://updates.thimpress.com/wp-content/uploads/2018/01/eduma-demo-edtech.jpg"> <a href="../../../../../demo-edtech/index.html" title="Demo Edtech" style="background: url('https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/themes/eduma/images/eduma-chameleon-gradschool3.png') 0px -370px;"> </a></div><div class="tp_demo" data-preview="https://updates.thimpress.com/wp-content/uploads/2018/07/eduma-demo-grad-school.jpg"> <a href="../../../../index.html" title="Demo Grad School" style="background: url('https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/themes/eduma/images/eduma-chameleon-gradschool3.png') -142px -370px;"> </a></div><div class="tp_demo" data-preview="https://updates.thimpress.com/wp-content/uploads/2017/06/eduma-demo-university-3.jpg"> <a href="../../../../../demo-university-3/index.html" title="Demo Ivy League" style="background: url('https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/themes/eduma/images/eduma-chameleon-gradschool3.png') 0px -480px;"> </a></div><div class="tp_demo" data-preview="https://updates.thimpress.com/wp-content/uploads/2017/06/eduma-demo-kindergarten.jpg"> <a href="../../../../../demo-kindergarten/index.html" title="Demo Kindergarten" style="background: url('https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/themes/eduma/images/eduma-chameleon-gradschool3.png') -142px -480px;"> </a></div><div class="tp_demo" data-preview="https://updates.thimpress.com/wp-content/uploads/2017/06/eduma-demo-languages-school.jpg"> <a href="../../../../../demo-languages-school/index.html" title="Demo Languages School" style="background: url('https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/themes/eduma/images/eduma-chameleon-gradschool3.png') 0px -590px;"> </a></div><div class="tp_demo" data-preview="https://updates.thimpress.com/wp-content/uploads/2017/06/eduma-demo-03.jpg"> <a href="../../../../../demo-3/index.html" title="Demo Online School" style="background: url('https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/themes/eduma/images/eduma-chameleon-gradschool3.png') -142px -590px;"> </a></div><div class="tp_demo" data-preview="https://updates.thimpress.com/wp-content/uploads/2017/06/eduma-demo-rtl.png"> <a href="../../../../../demo-rtl/index.html" title="Demo RTL" style="background: url('https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/themes/eduma/images/eduma-chameleon-gradschool3.png') 0px -700px;"> </a></div><div class="tp_demo" data-preview="https://updates.thimpress.com/wp-content/uploads/2017/06/eduma-demo-university-4.jpg"> <a href="../../../../../demo-university-4/index.html" title="Demo Stanford" style="background: url('https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/themes/eduma/images/eduma-chameleon-gradschool3.png') -142px -700px;"> </a></div><div class="tp_demo" data-preview="https://updates.thimpress.com/wp-content/uploads/2017/06/eduma-demo-university-2.jpg"> <a href="../../../../../demo-university-2/index.html" title="Demo Modern University" style="background: url('https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/themes/eduma/images/eduma-chameleon-gradschool3.png') 0px -810px;"> </a></div><div class="tp_demo" data-preview="https://updates.thimpress.com/wp-content/uploads/2017/06/eduma-demo-university.jpg"> <a href="../../../../../demo-university/index.html" title="Demo Classic University" style="background: url('https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/themes/eduma/images/eduma-chameleon-gradschool3.png') -142px -810px;"> </a></div><div class="tp_demo" data-preview="https://updates.thimpress.com/wp-content/uploads/2018/04/eduma-demo-react.jpg"> <a href="../../../../../demo-react/index.html" title="Demo React" style="background: url('https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/themes/eduma/images/eduma-chameleon-gradschool3.png') 0px -920px;"> </a></div><div class="tp_demo" data-preview="https://updates.thimpress.com/wp-content/uploads/2017/06/eduma-demo-boxed.png"> <a href="../../../../../demo-boxed/index.html" title="Demo Boxed" style="background: url('https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/themes/eduma/images/eduma-chameleon-gradschool3.png') -142px -920px;"> </a></div><div class="tp_demo"> <span title="Coming Soon" style="display: block; background: url('https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/themes/eduma/images/eduma-chameleon-gradschool3.png') 0px -1030px; width: 142px;height: 110px;"> </span></div></div></div></div><div class="style-toggle close"></div><div class="style-toggle open"></div></div><div class="tp-preview-images"> <img src="https://updates.thimpress.com/wp-content/uploads/2017/06/eduma-demo-01.jpg" alt="preview image"></div><div id="tp_chameleon_list_google_fonts"></div><div class="gallery-slider-content"></div> <script data-cfasync="false" src="../../../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" type="text/javascript">window.onload = function() {
+                    var thim_preload = document.getElementById('preload');
+                    if (thim_preload) {
+                        setTimeout(function() {
+                            var body = document.getElementById('thim-body'),
+                                len = body.childNodes.length,
+                                class_name = body.className.replace(/(?:^|\s)thim-body-preload(?!\S)/, '').
+                                    replace(/(?:^|\s)thim-body-load-overlay(?!\S)/, '');
+
+                            body.className = class_name;
+                            if (typeof thim_preload !== 'undefined' && thim_preload !== null) {
+                                for (var i = 0; i < len; i++) {
+                                    if (body.childNodes[i].id !== 'undefined' && body.childNodes[i].id == 'preload') {
+                                        body.removeChild(body.childNodes[i]);
+                                        break;
+                                    }
+                                }
+                            }
+                        }, 500);
+                    }
+                };</script> <script>window.addEventListener('load', function() {
+                /**
+                 * Fix issue there is an empty spacing between image and title of owl-carousel
+                 */
+                setTimeout(function() {
+                    var $ = jQuery;
+                    var $carousel = $('.thim-owl-carousel-post').each(function() {
+                        $(this).find('.image').css('min-height', 0);
+                        $(window).trigger('resize');
+                    });
+                }, 500);
+            });</script> <script type="text/javascript">var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;</script> <style type="text/css" media="all" id="siteorigin-panels-layouts-footer">/* Layout tc-megamenu-7682 */ #pgc-tc-megamenu-7682-0-0 , #pgc-tc-megamenu-7682-0-1 { width:31%;width:calc(31% - ( 0.69 * 30px ) ) } #pl-tc-megamenu-7682 #panel-tc-megamenu-7682-0-0-0 , #pl-tc-megamenu-7682 #panel-tc-megamenu-7682-0-1-0 , #pl-tc-megamenu-7682 #panel-tc-megamenu-7682-0-2-0 {  } #pgc-tc-megamenu-7682-0-2 { width:38%;width:calc(38% - ( 0.62 * 30px ) ) } #pl-tc-megamenu-7682 .so-panel { margin-bottom:30px } #pl-tc-megamenu-7682 .so-panel:last-child { margin-bottom:0px } @media (max-width:767px){ #pg-tc-megamenu-7682-0.panel-no-style, #pg-tc-megamenu-7682-0.panel-has-style > .panel-row-style { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-tc-megamenu-7682-0 .panel-grid-cell { margin-right:0 } #pg-tc-megamenu-7682-0 .panel-grid-cell { width:100% } #pgc-tc-megamenu-7682-0-0 , #pgc-tc-megamenu-7682-0-1 { margin-bottom:30px } #pl-tc-megamenu-7682 .panel-grid-cell { padding:0 } #pl-tc-megamenu-7682 .panel-grid .panel-grid-cell-empty { display:none } #pl-tc-megamenu-7682 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } /* Layout w5b7cc84b2cab6 */ #pgc-w5b7cc84b2cab6-0-0 { width:28.9167%;width:calc(28.9167% - ( 0.710833333333 * 30px ) ) } #pl-w5b7cc84b2cab6 #panel-w5b7cc84b2cab6-0-0-0 , #pl-w5b7cc84b2cab6 #panel-w5b7cc84b2cab6-0-1-0 , #pl-w5b7cc84b2cab6 #panel-w5b7cc84b2cab6-0-2-0 , #pl-w5b7cc84b2cab6 #panel-w5b7cc84b2cab6-0-3-0 {  } #pgc-w5b7cc84b2cab6-0-1 { width:23.9167%;width:calc(23.9167% - ( 0.760833333333 * 30px ) ) } #pgc-w5b7cc84b2cab6-0-2 { width:22.1667%;width:calc(22.1667% - ( 0.778333333333 * 30px ) ) } #pgc-w5b7cc84b2cab6-0-3 { width:25%;width:calc(25% - ( 0.75 * 30px ) ) } #pl-w5b7cc84b2cab6 .so-panel { margin-bottom:30px } #pl-w5b7cc84b2cab6 .so-panel:last-child { margin-bottom:0px } #pg-w5b7cc84b2cab6-0.panel-no-style, #pg-w5b7cc84b2cab6-0.panel-has-style > .panel-row-style { -webkit-align-items:flex-start;align-items:flex-start } #panel-w5b7cc84b2cab6-0-0-0> .panel-widget-style { padding:0px 38px 0px 0px } @media (max-width:767px){ #pg-w5b7cc84b2cab6-0.panel-no-style, #pg-w5b7cc84b2cab6-0.panel-has-style > .panel-row-style { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-w5b7cc84b2cab6-0 .panel-grid-cell { margin-right:0 } #pg-w5b7cc84b2cab6-0 .panel-grid-cell { width:100% } #pgc-w5b7cc84b2cab6-0-0 , #pgc-w5b7cc84b2cab6-0-1 , #pgc-w5b7cc84b2cab6-0-2 { margin-bottom:30px } #pl-w5b7cc84b2cab6 .panel-grid-cell { padding:0 } #pl-w5b7cc84b2cab6 .panel-grid .panel-grid-cell-empty { display:none } #pl-w5b7cc84b2cab6 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  }</style> <script type='text/javascript'>var wpcf7 = {"apiSettings":{"root":"https:\/\/educationwp.thimpress.com\/demo-grad-school\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":0};</script> <script type='text/javascript'>var wc_add_to_cart_params = {"ajax_url":"\/demo-grad-school\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/demo-grad-school\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/educationwp.thimpress.com\/demo-grad-school\/cart\/","is_cart":"","cart_redirect_after_add":"no"};</script> <script type='text/javascript'>var woocommerce_params = {"ajax_url":"\/demo-grad-school\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/demo-grad-school\/?wc-ajax=%%endpoint%%"};</script> <script type='text/javascript'>var wc_cart_fragments_params = {"ajax_url":"\/demo-grad-school\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/demo-grad-school\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_b6be3c944af66a9eb80ee8df6116a7ad","fragment_name":"wc_fragments_b6be3c944af66a9eb80ee8df6116a7ad"};</script> <script type='text/javascript'>var _wpUtilSettings = {"ajax":{"url":"\/demo-grad-school\/wp-admin\/admin-ajax.php"}};</script> <script type='text/javascript'>var WPEMS = {"gmt_offset":"0","current_time":"Apr 20, 2019 06:07:00 +0000","l18n":{"labels":["Years","Months","Weeks","Days","Hours","Minutes","Seconds"],"labels1":["Year","Month","Week","Day","Hour","Minute","Second"]},"ajaxurl":"https:\/\/educationwp.thimpress.com\/demo-grad-school\/wp-admin\/admin-ajax.php","something_wrong":"Something went wrong","register_button":"a1319aac5c"};</script> <script type='text/javascript'>var thim_js_translate = {"login":"Username","password":"Password","close":"Close"};</script> <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js?ver=3.0.22'></script> <script type='text/javascript'>WebFont.load({google:{families:['Poppins:300,300i,400,400i,500,500i,700,700i']}});</script> <script type='text/javascript'>var lpGlobalSettings = {"url":"https:\/\/educationwp.thimpress.com\/demo-grad-school\/courses\/improve-your-css-workflow-with-sass\/lessons\/adding-columns-at-breakpoints\/","siteurl":"https:\/\/educationwp.thimpress.com\/demo-grad-school","ajax":"https:\/\/educationwp.thimpress.com\/demo-grad-school\/wp-admin\/admin-ajax.php","theme":"eduma","localize":{"button_ok":"OK","button_cancel":"Cancel","button_yes":"Yes","button_no":"No"}};</script> <script type='text/javascript'>var lpCheckoutSettings = {"ajaxurl":"https:\/\/educationwp.thimpress.com\/demo-grad-school","user_waiting_payment":null,"user_checkout":"","i18n_processing":"Processing","i18n_redirecting":"Redirecting","i18n_invalid_field":"Invalid field","i18n_unknown_error":"Unknown error","i18n_place_order":"Place order"};</script> <script type='text/javascript'>var lpProfileUserSettings = {"processing":"Processing","redirecting":"Redirecting","avatar_size":{"width":150,"height":150}};</script> <script type='text/javascript'>var lpCourseSettings = [""];</script> <script type='text/javascript'>var lpQuizSettings = [];</script> <div id="thim-popup-login"><div class="thim-login-container has-shortcode"> <script>jQuery(".btn-mo").prop("disabled",false);</script> <script type="text/javascript">function mo_openid_on_consent_change(checkbox,value){
+
+                    if (value == 0) {
+                        jQuery('#mo_openid_consent_checkbox').val(1);
+                        jQuery(".btn-mo").attr("disabled",true);
+                        jQuery(".login-button").addClass("dis");
+                    }
+                    else {
+                        jQuery('#mo_openid_consent_checkbox').val(0);
+                        jQuery(".btn-mo").attr("disabled",false);
+                        jQuery(".login-button").removeClass("dis");
+                        //jQuery(".btn-mo").removeAttr("disabled");
+                    }
+                }
+
+                function moOpenIdLogin(app_name,is_custom_app) {
+                    var current_url = window.location.href;
+                    var cookie_name = "redirect_current_url";
+                    var d = new Date();
+                    d.setTime(d.getTime() + (2 * 24 * 60 * 60 * 1000));
+                    var expires = "expires="+d.toUTCString();
+                    document.cookie = cookie_name + "=" + current_url + ";" + expires + ";path=/";
+
+                                        var base_url = 'https://educationwp.thimpress.com/demo-grad-school';
+                    var request_uri = '/demo-grad-school/courses/improve-your-css-workflow-with-sass/lessons/adding-columns-at-breakpoints/';
+                    var http = 'https://';
+                    var http_host = 'educationwp.thimpress.com';
+
+                   if(is_custom_app == 'false'){
+
+                        if ( request_uri.indexOf('wp-login.php') !=-1){
+                            var redirect_url = base_url + '/?option=getmosociallogin&app_name=';
+
+
+                        }else {
+                            var redirect_url = http + http_host + request_uri;
+                            if(redirect_url.indexOf('?') != -1){
+                                redirect_url = redirect_url +'&option=getmosociallogin&app_name=';
+
+                            }
+                            else
+                            {
+                                redirect_url = redirect_url +'?option=getmosociallogin&app_name=';
+
+                            }
+                        }
+
+                    }
+                    else {
+
+                        if ( request_uri.indexOf('wp-login.php') !=-1){
+                            var redirect_url = base_url + '/?option=oauthredirect&app_name=';
+
+                        }else {
+                            var redirect_url = http + http_host + request_uri;
+                            if(redirect_url.indexOf('?') != -1)
+                                redirect_url = redirect_url +'&option=oauthredirect&app_name=';
+                            else
+                                redirect_url = redirect_url +'?option=oauthredirect&app_name=';
+                        }
+
+                    }
+
+                    window.location.href = redirect_url + app_name;
+
+                }</script> <div class='mo-openid-app-icons'><p style='color:#000000'> Login with social networks</p><a rel='nofollow' style='width: 240px !important;padding-top:11px !important;padding-bottom:11px !important;margin-bottom: -1px !important;border-radius: 4px !important;' class='btn btn-mo btn-block btn-social btn-facebook btn-custom-dec login-button' onClick="moOpenIdLogin('facebook','true');"> <i style='padding-top:5px !important' class='fa fa-facebook'></i> Facebook</a><a rel='nofollow' style='width: 240px !important;padding-top:11px !important;padding-bottom:11px !important;margin-bottom: -1px !important;border-radius: 4px !important;' class='btn btn-mo btn-block btn-social btn-google btn-custom-dec login-button' onClick="moOpenIdLogin('google','false');"> <i style='padding-top:5px !important' class='fa fa-google-plus'></i> Google</a><a rel='nofollow' style='width: 240px !important;padding-top:11px !important;padding-bottom:11px !important;margin-bottom: -1px !important;border-radius: 4px !important;' class='btn btn-mo btn-block btn-social btn-twitter btn-custom-dec login-button' onClick="moOpenIdLogin('twitter','false');"> <i style='padding-top:5px !important' class='fa fa-twitter'></i> Twitter</a><a rel='nofollow' style='width: 240px !important;padding-top:11px !important;padding-bottom:11px !important;margin-bottom: -1px !important;border-radius: 4px !important;' class='btn btn-mo btn-block btn-social btn-linkedin btn-custom-dec login-button' onClick="moOpenIdLogin('linkedin','false');"> <i style='padding-top:5px !important' class='fa fa-linkedin'></i> LinkedIn</a></div> <br><div class="thim-login"><h4 class="title">Login with your site account</h4><form name="loginpopopform" action="https://educationwp.thimpress.com/demo-grad-school/wp-login.php?wpe-login=true" method="post"><p class="login-username"> <input type="text" name="log" placeholder="Username or email" class="input required" value="" size="20" /></p><p class="login-password"> <input type="password" name="pwd" placeholder="Password" class="input required" value="" size="20" /></p> <a class="lost-pass-link" href="../../../../account/index-action=lostpassword.html" title="Lost Password">Lost your password?</a><p class="forgetmenot login-remember"> <label for="popupRememberme"><input name="rememberme" type="checkbox" value="forever" id="popupRememberme" /> Remember Me </label></p><p class="submit login-submit"> <input type="submit" name="wp-submit" class="button button-primary button-large" value="Login" /> <input type="hidden" name="redirect_to" value="https://educationwp.thimpress.com/demo-grad-school/courses/improve-your-css-workflow-with-sass/?enroll-course=5227" /> <input type="hidden" name="testcookie" value="1" /></p></form><p class="link-bottom">Not a member yet? <a class="register" href="../../../../account/index-action=register.html">Register now</a></p></div><div class="thim-register"><h4 class="title">Register a new account</h4><form class="auto_login" name="registerformpopup" action="https://educationwp.thimpress.com/demo-grad-school/wp-login.php?action=register&#038;wpe-login=true" method="post" novalidate="novalidate"> <input type="hidden" id="register_security" name="register_security" value="69bad39813" /><input type="hidden" name="_wp_http_referer" value="/demo-grad-school/courses/improve-your-css-workflow-with-sass/lessons/adding-columns-at-breakpoints/" /><p> <input placeholder="Username" type="text" name="user_login" class="input required" /></p><p> <input placeholder="Email" type="email" name="user_email" class="input required" /></p><p> <input placeholder="Password" type="password" name="password" class="input required" /></p><p> <input placeholder="Repeat Password" type="password" name="repeat_password" class="input required" /></p><p> <input type="hidden" name="redirect_to" value="https://educationwp.thimpress.com/demo-grad-school/courses/improve-your-css-workflow-with-sass/?enroll-course=5227" /> <input type="hidden" name="modify_user_notification" value="1"></p><p class="submit"> <input type="submit" name="wp-submit" class="button button-primary button-large" value="Sign up" /></p></form><p class="link-bottom">Are you a member? <a class="login" href="../../../../account/index.html">Login now</a></p><div class="popup-message"></div></div> <span class="close-popup"><i class="fa fa-times" aria-hidden="true"></i></span><div class="cssload-container"><div class="cssload-loading"><i></i><i></i><i></i><i></i></div></div></div></div><div class="tp_chameleon_overlay"><div class="tp_chameleon_progress"><div class="tp_chameleon_heading">Processing!</div></div></div> <script async type="text/javascript">var tp_chameleon_url_stylesheet = 'http://educationwp.thimpress.com/thim-2/wp-content/themes/eduma/style-1.css';
+	var tp_chameleon_url_admin_ajax = 'https://educationwp.thimpress.com/demo-grad-school/wp-admin/admin-ajax.php';
+	var tp_chameleon_wp_nonce = 'db1642fe16';
+	var tp_chameleon_primary_color = 'rgb(255, 182, 6)';
+	var tp_chameleon_selector_wrapper_box = '.content-pusher';
+	var tp_chameleon_class_boxed = 'boxed-area';
+	var tp_chameleon_src_patterns = 'https://educationwp.thimpress.com/demo-grad-school/wp-content/plugins/tp-chameleon/images/patterns/';
+	var tp_chameleon_setting = {
+		layout: tp_chameleon_getCookie('tp_chameleon_layout'),
+		pattern_type: tp_chameleon_getCookie('tp_chameleon_pattern_type'),
+		pattern_src: tp_chameleon_getCookie('tp_chameleon_pattern_src'),
+		primary_color: tp_chameleon_getCookie('tp_chameleon_primary_color'),
+		primary_color_rgb: tp_chameleon_getCookie('tp_chameleon_primary_color_rgb'),
+		body_font: tp_chameleon_getCookie('tp_chameleon_body_font'),
+		body_font_code: tp_chameleon_getCookie('tp_chameleon_body_font_code'),
+		heading_font: tp_chameleon_getCookie('tp_chameleon_heading_font'),
+		heading_font_code: tp_chameleon_getCookie('tp_chameleon_heading_font_code')
+	};
+
+	
+
+	var tp_chameleon_site_url = '//educationwp.thimpress.com/demo-grad-school';
+
+	function tp_chameleon_setCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+		var expires = "expires=" + d.toUTCString();
+		document.cookie = cname + "=" + cvalue + "; " + expires;
+	}
+
+	function tp_chameleon_deleteCookie(cname) {
+		var d = new Date();
+		d.setTime(d.getTime() + (24 * 60 * 60 * 1000));
+		var expires = "expires=" + d.toUTCString();
+		document.cookie = cname + "=; " + expires;
+	}
+
+	function tp_chameleon_deleteAllCookie() {
+		var all_cookie = [
+			'tp_chameleon_layout',
+			'tp_chameleon_pattern_type',
+			'tp_chameleon_pattern_src',
+			'tp_chameleon_primary_color',
+			'tp_chameleon_primary_color_rgb',
+			'tp_chameleon_body_font',
+			'tp_chameleon_body_font_code',
+			'tp_chameleon_heading_font',
+			'tp_chameleon_heading_font_code'
+		];
+
+		for (var i = 0; i < all_cookie.length; i++) {
+			tp_chameleon_deleteCookie(all_cookie[i]);
+		}
+	}
+
+	function tp_chameleon_getCookie(cname) {
+		var name = cname + "=";
+		var ca = document.cookie.split(';');
+		for (var i = 0; i < ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') c = c.substring(1);
+			if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+		}
+
+		return '';
+	}
+
+	function tp_chameleon_set_first_visit() {
+		tp_chameleon_setCookie('tp_chameleon_first_visit', 1, 1);
+	}
+
+	function tp_chameleon_check_first_visit() {
+		return !(tp_chameleon_getCookie('tp_chameleon_first_visit') == '1' );
+	}
+
+	jQuery(document).ready(function ($) {
+		var $preview = $('.tp-preview-images');
+
+		$('.tp_demo').hover(
+			function (event) {
+				var url_prewview = $(this).attr('data-preview');
+				if( url_prewview ) {
+					$preview.find('img').attr('src', url_prewview);
+					$preview.show();
+				}
+			},
+			function () {
+				$preview.hide();
+			}
+		);
+
+		$('.tp_demo').mousemove(function (event) {
+			var y = (event.clientY);
+			$preview.css('top', y - 250);
+		});
+
+		function tp_chameleon_open() {
+			tp_chameleon_set_first_visit();
+			$('#tp_style_selector').addClass('show').animate({right: '0px'}, 'medium');
+			$('#tp_style_selector .open').hide();
+			$('#tp_style_selector .close').show();
+		}
+
+		function tp_chameleon_close() {
+			$('#tp_style_selector').removeClass('show').animate({right: '-313px'}, 'medium');
+			$('#tp_style_selector .close').hide();
+			$('#tp_style_selector .open').show();
+		}
+
+		function tp_form_newsletter_show() {
+            tp_chameleon_set_first_visit();
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 200) {
+                    $('.tp-email-form .button-email').addClass('bounceInUp animated active');
+                    var cookie_name = 'hide_form_email1';
+                    $.cookie(cookie_name, '1', {expires: 3, path: '/'});
+                }
+            });
+        }
+
+		function tp_change_background_pattern(url_pattern) {
+			var $body = $('body');
+			$body.removeClass('tp_background_image');
+			$body.addClass('tp_background_pattern');
+			$body.css('background-image', 'url("' + url_pattern + '")')
+		}
+
+		function tp_change_background_image(url_image) {
+			var $body = $('body');
+			$body.removeClass('tp_background_pattern');
+			$body.addClass('tp_background_image');
+			$body.css('background-image', 'url("' + url_image + '")')
+		}
+
+		function tp_chameleon_change_layout_wide() {
+			tp_chameleon_setCookie('tp_chameleon_layout', 'wide', 1);
+
+			var $body = $('body');
+			$('.tp-change-layout').removeClass('active');
+			$('.tp-change-layout.layout-wide').addClass('active');
+			$('#tp_style_selector .boxed-mode').slideUp(300);
+			$(tp_chameleon_selector_wrapper_box).removeClass(tp_chameleon_class_boxed);
+			$body.css('background-image', 'none');
+		}
+
+		function tp_chameleon_change_layout_boxed() {
+			tp_chameleon_setCookie('tp_chameleon_layout', 'boxed', 1);
+			$('.tp-change-layout').removeClass('active');
+			$('.tp-change-layout.layout-boxed').addClass('active');
+			$('#tp_style_selector .boxed-mode').slideDown(300);
+			$(tp_chameleon_selector_wrapper_box).addClass(tp_chameleon_class_boxed);
+		}
+
+		function tp_chameleon_change_background_pattern(pattern_src) {
+			tp_chameleon_setCookie('tp_chameleon_pattern_src', pattern_src, 1);
+			tp_chameleon_setCookie('tp_chameleon_pattern_type', 'pattern', 1);
+			var pattern_url = tp_chameleon_src_patterns + pattern_src;
+			tp_change_background_pattern(pattern_url);
+		}
+
+		function tp_chameleon_change_background_image(pattern_src) {
+			tp_chameleon_setCookie('tp_chameleon_pattern_src', pattern_src, 1);
+			tp_chameleon_setCookie('tp_chameleon_pattern_type', 'image', 1);
+			var pattern_url = tp_chameleon_src_patterns + pattern_src;
+			tp_change_background_image(pattern_url);
+		}
+
+		var $body_font = '<style id="tp_chameleon_body_font" type="text/css"></style>';
+		var $heading_font = '<style id="tp_chameleon_heading_font" type="text/css"></style>';
+		var $stylesheet = '<link id="tp_chameleon_stylesheet" type="text/css" rel="stylesheet">';
+
+		var $tp_head = $('head');
+		$tp_head.append($stylesheet);
+
+		var $tp_body = $('body');
+		$tp_body.append($body_font);
+		$tp_body.append($heading_font);
+
+		if (tp_chameleon_setting.layout == 'wide') {
+			tp_chameleon_change_layout_wide();
+		}
+		if (tp_chameleon_setting.layout == 'boxed') {
+			tp_chameleon_change_layout_boxed();
+
+			if (tp_chameleon_setting.pattern_type == 'pattern' && tp_chameleon_setting.pattern_src != '') {
+				tp_chameleon_change_background_pattern(tp_chameleon_setting.pattern_src);
+				$('.tp_pattern[data-src="' + tp_chameleon_setting.pattern_src + '"]').addClass('active');
+			}
+
+			if (tp_chameleon_setting.pattern_type == 'image' && tp_chameleon_setting.pattern_src != '') {
+				tp_chameleon_change_background_image(tp_chameleon_setting.pattern_src);
+				$('.tp_image[data-src="' + tp_chameleon_setting.pattern_src + '"]').addClass('active');
+			}
+		}
+
+		$('.tp-chameleon-clear').click(function (event) {
+			event.preventDefault();
+			tp_chameleon_deleteAllCookie();
+			document.location.reload();
+		});
+
+		$('.tp-btn.tp-change-layout').click(function (event) {
+			event.preventDefault();
+
+			if ($(this).hasClass('layout-wide')) {
+				tp_chameleon_change_layout_wide();
+
+							} else {
+				tp_chameleon_change_layout_boxed();
+
+							}
+		});
+
+		$('.tp_pattern').click(function (event) {
+			event.preventDefault();
+			$('.tp_pattern').removeClass('active');
+			$('.tp_image').removeClass('active');
+			$(this).addClass('active');
+			var pattern_src = $(this).attr('data-src');
+			tp_chameleon_change_background_pattern(pattern_src);
+		});
+
+		$('.tp_image').click(function (event) {
+			event.preventDefault();
+			$('.tp_pattern').removeClass('active');
+			$('.tp_image').removeClass('active');
+			$(this).addClass('active');
+			var pattern_src = $(this).attr('data-src');
+			tp_chameleon_change_background_image(pattern_src);
+		});
+
+		/**
+		 * Open/Close box
+		 */
+		$('#tp_style_selector .close').click(function (e) {
+			e.preventDefault();
+			tp_chameleon_close();
+		});
+
+		$('#tp_style_selector .open').click(function (e) {
+			e.preventDefault();
+			tp_chameleon_open();
+		});
+
+		$(window).load(function () {
+			var $btn = $('.tp-chameleon-btn-buy');
+			$btn.animate({
+				bottom: $btn.attr('data-bottom')
+			}, 500);
+
+			//Set view-more-slider button
+			$('.view-more-slider .text:last-child').hide();
+			setInterval(function(){
+				$('.view-more-slider .text:first-child').hide();
+				$('.view-more-slider .text:last-child').show();
+				setTimeout(function(){
+					$('.view-more-slider .text:first-child').show();
+					$('.view-more-slider .text:last-child').hide();
+				}, 2000);
+			}, 4500);
+
+		});
+
+		/**
+		 * Check firt visit
+		 */
+		if (tp_chameleon_check_first_visit()) {
+		    //set visit is second
+			setTimeout(tp_chameleon_open, 5000);
+		} else {
+			$('#tp_style_selector').click(function (event) {
+				tp_chameleon_set_first_visit();
+			});
+		}
+        if (tp_chameleon_check_first_visit()) {
+            tp_form_newsletter_show();
+        }
+		
+		
+        $('.tp-email-form .button-email').click(function (e) {
+            e.preventDefault();
+            $('.tp-email-form .email-form-popup').addClass('show');
+        });
+        $('.tp-email-form .email-form-popup .close-popup').click(function (e) {
+            e.preventDefault();
+            $('.tp-email-form .email-form-popup').removeClass('show');
+            $('.tp-email-form .button-email').addClass('hide');
+        });
+
+        $('.tp-email-form .email-form-popup .email-form-subscribe form ').submit(function (e) {
+            e.preventDefault();
+            var form = $(this);
+            var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            form.append('<div class="loading"><i class="fa fa-spinner fa-pulse"></i></div>');
+            if(form.find('input[type="email"]').val()) {
+                $.ajax({
+                    type: "POST",
+                    url: 'https://preview.thimpress.com/m/mailster/subscribe',
+                    data: form.serialize(),
+                    complete: function (xhr, textStatus) {
+                        form.find('.loading').remove();
+                        form.append('<div class="message-success">Please check your inbox or spam folder for confirmation email!</div>');
+                        setTimeout(function () {
+                            form.find('.message-success').remove();
+                        }, 2000);
+                    }
+                });
+            } else {
+                form.find('.loading').remove();
+                form.append('<div class="message-error">Please enter email address</div>');
+                setTimeout(function(){ form.find('.message-error').remove(); }, 2000);
+                form.find('input[type="email"]').addClass('error');
+            }
+
+
+        });
+
+        $('.tp-email-form .email-form-popup .email-form-subscribe form input[type="email"]').focus(function () {
+            $(this).removeClass('error');
+        });
+	});</script><script type="text/javascript" defer src="https://3ek5k1tux0822q3g83e30fye-wpengine.netdna-ssl.com/demo-grad-school/wp-content/cache/autoptimize/52/js/autoptimize_65a6e4c68b177e99ad6863c8738baf34.js"></script></body></html>
