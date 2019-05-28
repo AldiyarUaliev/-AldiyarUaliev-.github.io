@@ -1,0 +1,33 @@
+[
+{
+contentType: null,
+serializerSettings: null,
+statusCode: null,
+value: [
+{
+id: 1,
+name: "Ñ++",
+description: "פûגûפגûפגפûגפûגûפגפûגûפגפûגûפגפûגûפגûפגûפגפûגûפגפûגפûג",
+tutorsName: "אכהטÿנ",
+categoryId: 1,
+category: null,
+rank: "5",
+lecture: [ ],
+quizzes: [ ],
+images: [ ]
+},
+{
+id: 2,
+name: "ס¹",
+description: "ûגפûגפûגûפגפûגûפגûפגûפגûפגûפגפûגפûגפûגפûגûפגפ",
+tutorsName: "עוסע",
+categoryId: 1,
+category: null,
+rank: "4",
+lecture: [ ],
+quizzes: [ ],
+images: [ ]
+}
+]
+}
+]
