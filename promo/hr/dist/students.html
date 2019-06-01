@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css\libs.min.css">
+	<link rel="stylesheet" href="css\main.css">
+	<title>Sulpak</title>
+</head>
+<body id="students_body">
+	<header class="d-flex align-items-center">
+		<div class="menu_mobile">
+			<button class="hamburger hamburger--slider" type="button" aria-label="Menu" aria-controls="navigation" aria-expanded="true/false">
+			    <span class="hamburger-text">Меню</span>
+			    <span class="hamburger-box">
+			      <span class="hamburger-inner"></span>
+			    </span>
+			  </button>
+
+			  <div id="menu">
+			    <nav>
+					<ul>
+						<li><a href="about-1.html">О компании</a></li>
+						<li><a href="work.html">Работа в Sulpak</a></li>
+						<li><a href="study.html">Обучение в Sulpak</a></li>
+						<li><a href="history.html">Истории Успеха</a></li>
+					</ul>
+				</nav>
+				<a id="show-pop-up-form" href="#" class="btn btn-red">Заполнить анкету</a>
+			  </div>
+		</div>
+		<div class="container">
+			<div class="row d-flex align-items-center">
+				<div class="col-md-2 col-6">
+					<a href="https://www.sulpak.kz" id="logo">
+						<img src="img\logo.png" alt="">
+					</a>
+				</div>
+				
+				<div class="col-xl-6 offset-xl-2 col-md-7 dnm">
+					<nav>
+						<ul>
+							<li><a href="about-1.html">О компании</a></li>
+							<li><a href="work.html">Работа в Sulpak</a></li>
+							<li><a href="study.html">Обучение в Sulpak</a></li>
+							<li><a href="history.html">Истории Успеха</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-xl-2 col-md-3 dnm">
+					<a id="show-pop-up-form" href="#" class="btn btn-red">Заполнить анкету</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main id="students">
+		<div class="container-fluid">
+			<div class="row students_row_1">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 offset-md-6">
+							<h2>УСПЕВАЙ ВСЕГДА И ВЕЗДЕ ВМЕСТЕ С SULPAK!</h2>
+							<p class="students_row_p">Совмещай работу с учебой на позиции парт-таймера в наших магазинах!</p>
+							<img class="dndt" src="img\students_bg.png" alt="">
+							<strong>Мы предлагаем:</strong>
+							<div class="students_benefits">
+								<div class="item_benefits">
+									<img src="img\benefits_1.png" alt="">
+									<p>Возможность работать рядом с домом или учебой</p>
+								</div>
+								<div class="item_benefits">
+									<img src="img\benefits_2.png" alt="">
+									<p>Гибкий график работы,  который подстраивается под твой ритм жизни</p>
+								</div>
+								<div class="item_benefits">
+									<img src="img\benefits_3.png" alt="">
+									<p>Перспективу <br> карьерного роста</p>
+								</div>
+								<div class="item_benefits">
+									<img src="img\benefits_4.png" alt="">
+									<p>Стабильный <br> заработок</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row students_row_2">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<h2>Покажи себя и свои способности!</h2>
+							<p class="students_row_p">Начни свою карьеру в одной из самых крупных компаний <br>Казахстана! Пройди стажировку в Sulpak!</p>
+							<img class="dndt" src="img\students_img_2.png" alt="">
+							<strong>Мы предлагаем:</strong>
+							<div class="students_benefits">
+								<div class="item_benefits">
+									<img src="img\benefits_3.png" alt="">
+									<p>Перспективу <br>карьерного роста</p>
+								</div>
+								<div class="item_benefits">
+									<img src="img\benefits_5.png" alt="">
+									<p>Бесплатное обучение <br>в ходе стажировки</p>
+								</div>
+								<div class="item_benefits">
+									<img src="img\benefits_2.png" alt="">
+									<p>Гибкий <br>график работы</p>
+								</div>
+								<div class="item_benefits">
+									<img src="img\benefits_6.png" alt="">
+									<p>По итогам стажировки предоставляем рекомендательное письмо и характеристику</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="students_under">
+			<a id="show-pop-up-form" class="popup-with-zoom-anim btn btn-red" href="#work-info">Заполнить анкету</a>
+		</div>
+	</main>
+	<div id="work-info" class="zoom-anim-dialog popup-work info-popup mfp-hide">
+		<div class="mfp-close"><img src="img\popup-close.png" alt=""></div>
+	    <div id="pop-up-content" data-type="students"></div>
+	</div>
+	<div id="thank" class="zoom-anim-dialog thank info-popup mfp-hide">
+		<div class="mfp-close"><img src="img\popup-close.png" alt=""></div>
+		<img class="thank-img" src="img\thank.png" alt="">
+		<b>Спасибо!</b>
+		<p>
+			Ваша анкета успешно отправлена и будет рассмотрена в ближайшее время. После принятия решения с Вами свяжется наш специалист.
+		</p>
+	</div>
+	<div class="bg_menu"></div>
+	<script src="js\libs.js" charset="utf-8"></script>
+	<script src="js\common.js" charset="utf-8"></script>
+</body>
+</html>
